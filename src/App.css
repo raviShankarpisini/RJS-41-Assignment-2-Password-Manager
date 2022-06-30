@@ -275,6 +275,9 @@ ul {
   display: flex;
   flex-direction: row;
 }
+.medium-view {
+  display: none;
+}
 
 @media screen and (max-width: 768px) {
   .inputs-container {
@@ -291,5 +294,11 @@ ul {
   }
   .delete-container {
     flex-direction: column;
+  }
+  .large-view {
+    display: none;
+  }
+  .medium-view {
+    display: flex;
   }
 }
